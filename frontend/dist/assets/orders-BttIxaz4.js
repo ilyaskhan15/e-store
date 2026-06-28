@@ -1,0 +1,1 @@
+import{c as r}from"./client-BNWw3T_e.js";const d={getOrders:()=>r.get("/orders/").then(t=>t.data),getOrder:t=>r.get(`/orders/${t}/`).then(e=>e.data),createOrder:t=>r.post("/orders/",t).then(e=>e.data),validateDiscount:t=>r.post("/orders/validate-discount/",t).then(e=>e.data)};export{d as o};

@@ -1,0 +1,1 @@
+import{c as a}from"./client-BNWw3T_e.js";const r={login:t=>a.post("/auth/login/",t).then(e=>e.data),register:t=>a.post("/auth/register/",t).then(e=>e.data),me:()=>a.get("/auth/me/").then(t=>t.data),updateMe:t=>a.put("/auth/me/",t).then(e=>e.data),refresh:t=>a.post("/auth/token/refresh/",t).then(e=>e.data)};export{r as a};

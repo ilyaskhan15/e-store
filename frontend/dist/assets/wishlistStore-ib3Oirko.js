@@ -1,0 +1,1 @@
+import{E as r,F as l}from"./index-Bn5FNGp1.js";const h=r(l((t,m)=>({items:[],toggleWishlist:s=>t(i=>({items:i.items.some(e=>e.id===s.id)?i.items.filter(e=>e.id!==s.id):[...i.items,s]})),isWishlisted:s=>m().items.some(i=>i.id===s),clearWishlist:()=>t({items:[]})}),{name:"fifa-wishlist-store"}));export{h as u};

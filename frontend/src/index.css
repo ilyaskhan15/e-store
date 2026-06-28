@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F6F7FB;
+  color: #111827;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+::selection {
+  background: #E8C547;
+  color: #1A1F3A;
+}
