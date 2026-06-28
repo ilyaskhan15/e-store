@@ -55,3 +55,16 @@ python manage.py seed_data
 
 - Email: `admin@store.com`
 - Password: `admin123`
+
+## Docker Start
+
+Start both backend and frontend with one command from the repo root:
+
+```bash
+docker compose up --build
+```
+
+Then open:
+
+- Frontend: http://localhost:5174
+- Backend API: http://localhost:8001
